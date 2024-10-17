@@ -151,7 +151,6 @@ for s = 1:4;
     % axis limits
     if s == 4
         m_grid('tickdir','out','LineWidth',2,'FontSize',8,'box','on','xlabeldir','end','xtick',([-180,-120,-60,0,60,120,180]))%,'xticklabel',{'180°W','120°W','60°W','0','60°E','120°E','180°E'})
-        %m_grid('tickdir','out','LineWidth',2,'FontSize',8,'box','on')
     else
         m_grid('tickdir','out','LineWidth',2,'FontSize',8,'box','on','Xticklabels','');
     end
