@@ -18,6 +18,7 @@ Contains the source code to run the analyses and figures.
 - _HISASHI SCRIPT FOR Fig3_
 - **figure4and5_ROC_analysis_17102024.ipynb** (Jupyter notebook and R): produces figure 4 and figure 5 left and right pannels.
 - **figure5_mpv_distribution_map_17102024.m** (Matlab): produces figure 5.
+- **sifigures_model_arctic_data.ipynb** (Jupyter notebook and R): produces SI figures 1,2 and 3.
 
 ### ./data
 Contains data used to plot the figures and do the analyses.
@@ -25,6 +26,7 @@ Contains data used to plot the figures and do the analyses.
 - **env_ncldv_eupho_df_mpv.txt**: TARA Environmental data for each stations.
 - **GFCM21_SRA2_1_N_ts.1-1200.nc**: Present worldwide ocean temperatures (2010 - 2020) from IPCC SRES_AR4. 
 - **Info_Virus_New2023.txt**: Alignement information for virus groups.
+- **./data_Maat_2017** contains data from Maat _et al._ Viruses 2017 (https://www.mdpi.com/1999-4915/9/6/134) in xlsx form for host (**Polaris_Host.xlsx**) and virus (**Polaris_Virus.xlsx**). Sheets are experimental temperatures: 0.5, 2.5, 3.5 and 7^{∘}C. First column = cumulative time (in days) and second column = abundances (in particles/ml).
 
 ### ./figures
 Output folder with figures produced by the scripts in ./src

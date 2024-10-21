@@ -165,7 +165,7 @@ set(findall(gcf,'-property','FontSize'),'FontSize',12)
 
 %% Save figure
 set(gcf,'renderer','Painters')
-print(hfig,'-dsvg','-r600','-painters','../figures/figure5_mpv_distribution_map.svg')
-print(hfig,'-dpdf','-r600','-painters','../figures/figure5_mpv_distribution_map.pdf')
+print(hfig,'-dsvg','-r600','-painters','../figures/figure5_MicV_distribution_map.svg')
+print(hfig,'-dpdf','-r600','-painters','../figures/figure5_MicV_distribution_map.pdf')
 
 
