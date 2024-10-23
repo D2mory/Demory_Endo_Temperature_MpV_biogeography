@@ -1,5 +1,5 @@
 # _Code for_: Temperature-driven biogeography of marine giant viruses infecting picoeukaryotes _Micromonas_
-_By David Demory and Hisashi Endo, 2024._ test
+_By David Demory and Hisashi Endo, 2024._ 
 
 ## General description
  This repository contains scripts to reproduce figures and analyses for our study on Temperature-driven biogeography of marine giant viruses infecting picoeukaryotes _Micromonas_ published on * XXX *.
