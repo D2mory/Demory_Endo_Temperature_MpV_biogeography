@@ -29,13 +29,3 @@ Contains data used to plot the figures and do the analyses.
 
 ### ./figures
 Output folder with figures produced by the scripts in ./src
-
-# FOR HISASHI:
-- add figure 2a script in /src
-- add figure 2c script directly in the jupyter notebook at the correct section in ./src/figure2_mpv_groups_temperature_distribution_17102024.ipynb
-- add figure 3 script in /src
-
--(2024.11.18)
-- -> All done! Only figure 2a script was not added as it is fully manual and GUI-based processes.
-- -> I have added all the data (in /data), figures (in /figures), and scripts (in /src) for figures 2c, 3a, and 3)
-
