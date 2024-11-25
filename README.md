@@ -12,7 +12,7 @@ _By David Demory and Hisashi Endo, 2024._
 
 ### ./src
 Contains the source code to run the analyses and figures.
-- **figure1_env_descriptors_mpv_com_13092024.ipynb** (Jupyter notebook and R): produces figure 1.
+- **figure1_env_descriptors_mpv_com_13092024.ipynb** (Jupyter notebook and R): produces the entire figure 1.
 - _HISASHI SCRIPT FOR Fig1a_
 - **figure2_mpv_groups_temperature_distribution_17102024.ipynb** (Jupyter notebook and R): produces figure 1b, 1c and 1d.
 - _HISASHI SCRIPT FOR Fig3_
