@@ -16,8 +16,8 @@ Contains the source code to run the analyses and figures.
 - _HISASHI SCRIPT FOR Fig1a_
 - **figure2_mpv_groups_temperature_distribution_17102024.ipynb** (Jupyter notebook and R): produces figure 1b, 1c and 1d.
 - _HISASHI SCRIPT FOR Fig3_
-- **figure4and5_ROC_analysis_17102024.ipynb** (Jupyter notebook and R): produces figure 4 and figure 5 left and right pannels.
 - **figure3_mpv_host_network.ipynb**  (Jupyter notebook and R): produces figure 3.
+- **figure4and5_ROC_analysis_17102024.ipynb** (Jupyter notebook and R): produces figure 4 and figure 5 left and right pannels.
 - **figure5_mpv_distribution_map_17102024.m** (Matlab): produces figure 5.
 - **sifigures_model_arctic_data.ipynb** (Jupyter notebook and R): produces SI figures 1,2 and 3.
 
