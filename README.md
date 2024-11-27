@@ -13,7 +13,7 @@ _By David Demory and Hisashi Endo, 2024._
 ### ./src
 Contains the source code to run the analyses and figures.
 - **figure1_env_descriptors_mpv_com_13092024.ipynb** (Jupyter notebook and R): produces the entire figure 1.
-- **figure2_mpv_groups_temperature_distribution_17102024.ipynb** (Jupyter notebook and R): produces figure 2b, 2c and 2d. ^^Figure 2a is made manually using GUI-based processes (PRECISE PROCESSES)^^.
+- **figure2_mpv_groups_temperature_distribution_17102024.ipynb** (Jupyter notebook and R): produces figure 2b, 2c and 2d. ==Figure 2a is made manually using GUI-based processes (PRECISE PROCESSES)==.
 - **figure3_mpv_host_network.ipynb**  (Jupyter notebook and R): produces the entire figure 3.
 - **figure4and5_ROC_analysis_17102024.ipynb** (Jupyter notebook and R): produces figure 4 and figure 5 (left and right pannels only).
 - **figure5_mpv_distribution_map_17102024.m** (Matlab): produces figure 5 central panels (maps).
