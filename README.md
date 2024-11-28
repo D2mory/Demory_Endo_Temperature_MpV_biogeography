@@ -36,3 +36,11 @@ Contains data used to plot the figures and do the analyses.
   
 ### ./figures
 Output folder with figures produced by the scripts in ./src
+
+## TO DO
+### HISASHI
+- look at the <mark> highlighted text </mark> and provide info.
+- provide new ascesion numbers
+### David
+- work on code review: re-do Figure 4, merge figure 2.
+- modify the text according the new results of figure 4.
