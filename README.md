@@ -29,7 +29,7 @@ Contains data used to plot the figures and do the analyses.
 - **MicV_total_ids_clades.txt** and **Mic_total_ids_clades.txt**: Clade information for _Micromonas_ virus and _Micromonas_ host respectively.
 - **run220901_e2.positive.edgelist.hh.tsv**, **run220901_e2.positive.edgelist.tsv**, **run220901_e2.positive.edgelist.vh.tsv** and **run220901_e2.positive.edgelist.vv.tsv**:list of positive edges in the network used to draw fiure 3. hh -> host-host pairs, vh -> virus-host pairs, and vv -> virus host pairs.
 - **thermotype_list_host.txt** and **thermotype_list.txt**: Thermotype classification for each Tara sequence. Gene sequence (Gene), Relative mean frequency (mean_freq), Relative maximum frequency (max_freq), Optimal Temperature (opt_temp), Thermotype classification (thermotype).
-- 
+  
 - **./data_Maat_2017** contains data from Maat _et al._ Viruses 2017 (https://www.mdpi.com/1999-4915/9/6/134) in xlsx form for host (**Polaris_Host.xlsx**) and virus (**Polaris_Virus.xlsx**). Sheets are experimental temperatures: 0.5, 2.5, 3.5 and 7C. First column = cumulative time (in days) and second column = abundances (in particles/ml).
 - **./m_map** package to plot figure 5 maps using Matlab.
 
@@ -39,8 +39,7 @@ Output folder with figures produced by the scripts in ./src
 
 ## TO DO
 ### HISASHI
-- look at the <mark> highlighted text </mark> and provide info.
-- provide new ascesion numbers
+- <mark>provide new ascesion numbers</mark>
 ### David
 - work on code review: re-do Figure 4, merge figure 2.
 - modify the text according the new results of figure 4.
