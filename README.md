@@ -13,7 +13,7 @@ _By David Demory and Hisashi Endo, 2024._
 ### ./src
 Contains the source code to run the analyses and figures.
 - **figure1_env_descriptors_mpv_com_13092024.ipynb** (Jupyter notebook and R): produces the entire figure 1.
-- **figure2_mpv_groups_temperature_distribution_17102024.ipynb** (Jupyter notebook and R): produces figure 2b, 2c and 2d. <mark>Figure 2a is made manually using GUI-based processes (PRECISE PROCESSES)</mark>.
+- **figure2_mpv_groups_temperature_distribution_17102024.ipynb** (Jupyter notebook and R): produces figure 2b, 2c and 2d. Figure 2a is made manually using GUI-based processes: The PolB sequences of _Micromonas_ viruses were aligned with MAFFT 123 (ver.7.487) and the aligned sequences were trimmed with trimAl (ver.1.4.1) using default settings. The tree was built with the best-fit substitution model LG+F+G4 using IQ-TREE (ver.1.6.12). The resulting phylogenetic tree was visualized, labeled, and manually edited using iTOL. 
 - **figure3_mpv_host_network.ipynb**  (Jupyter notebook and R): produces the entire figure 3.
 - **figure4and5_ROC_analysis_17102024.ipynb** (Jupyter notebook and R): produces figure 4 and figure 5 (left and right pannels only).
 - **figure5_mpv_distribution_map_17102024.m** (Matlab): produces figure 5 central panels (maps).
@@ -25,14 +25,21 @@ Contains data used to plot the figures and do the analyses.
 - **env_ncldv_eupho_df_mpv.txt**: TARA Environmental data for each stations.
 - **GFCM21_SRA2_1_N_ts.1-1200.nc**: Present worldwide ocean temperatures (2010 - 2020) from IPCC SRES_AR4. 
 - **Info_Virus_New2023.txt**: Alignement information for virus groups.
-- **matlab.X.csv** model predictions for group X (A,B,C or Pol). Tara sample coordinates (lat	lon), temperature at coordinate	(T), Presence of group X in the sample (Presence), Presence predicted by the model	(model), differences between Sample and model prediction (diff), ROC classification	(ROC), Boolean model prediction	(Prediction): True = presence, False = absence. 
-- **MicV_total_ids_clades.txt** and **Mic_total_ids_clades.txt** Tara sequence classification (<mark>TO BE CONFIRME BY HISASHI? ALSO WHY WE HAVE TWO VERSIONS? </mark>)
-- **run220901_e2.positive.edgelist.hh.tsv**, **run220901_e2.positive.edgelist.tsv**, **run220901_e2.positive.edgelist.vh.tsv** and **run220901_e2.positive.edgelist.vv.tsv**: <mark>What are those files for Hisashi?</mark>
-- **thermotype_list_host.txt** and **thermotype_list.txt** Thermotype classification for each Tara sequence. Gene sequence (Gene), Relative mean frequency (mean_freq), Relative maximum frequency (max_freq), Optimal Temperature (opt_temp), Thermotype classification (thermotype). <mark> DOUBLE CHECK HISASHI </mark>
-
+- **matlab.X.csv**: model predictions for group X (A,B,C or Pol). Tara sample coordinates (lat	lon), temperature at coordinate	(T), Presence of group X in the sample (Presence), Presence predicted by the model	(model), differences between Sample and model prediction (diff), ROC classification	(ROC), Boolean model prediction	(Prediction): True = presence, False = absence. 
+- **MicV_total_ids_clades.txt** and **Mic_total_ids_clades.txt**: Clade information for _Micromonas_ virus and _Micromonas_ host respectively.
+- **run220901_e2.positive.edgelist.hh.tsv**, **run220901_e2.positive.edgelist.tsv**, **run220901_e2.positive.edgelist.vh.tsv** and **run220901_e2.positive.edgelist.vv.tsv**:list of positive edges in the network used to draw fiure 3. hh -> host-host pairs, vh -> virus-host pairs, and vv -> virus host pairs.
+- **thermotype_list_host.txt** and **thermotype_list.txt**: Thermotype classification for each Tara sequence. Gene sequence (Gene), Relative mean frequency (mean_freq), Relative maximum frequency (max_freq), Optimal Temperature (opt_temp), Thermotype classification (thermotype).
+  
 - **./data_Maat_2017** contains data from Maat _et al._ Viruses 2017 (https://www.mdpi.com/1999-4915/9/6/134) in xlsx form for host (**Polaris_Host.xlsx**) and virus (**Polaris_Virus.xlsx**). Sheets are experimental temperatures: 0.5, 2.5, 3.5 and 7C. First column = cumulative time (in days) and second column = abundances (in particles/ml).
 - **./m_map** package to plot figure 5 maps using Matlab.
 
   
 ### ./figures
 Output folder with figures produced by the scripts in ./src
+
+## TO DO
+### HISASHI
+- <mark>provide new ascesion numbers</mark>
+### David
+- <mark>work on code review: re-do Figure 4, merge figure 2.</mark>
+- <mark>modify the text according the new results of figure 4.</mark>
