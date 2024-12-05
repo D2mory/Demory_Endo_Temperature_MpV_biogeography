@@ -13,8 +13,7 @@ _By David Demory and Hisashi Endo, 2024._
 ### ./src
 Contains the source code to run the analyses and figures.
 - **figure1_env_descriptors_mpv_com_13092024.ipynb** (Jupyter notebook and R): produces the entire figure 1.
-- **figure2_mpv_groups_temperature_distribution_17102024.ipynb** (Jupyter notebook and R): produces figure 2b, 2c and 2d. <mark>Figure 2a is made manually using GUI-based processes (PRECISE PROCESSES)</mark>.
-    - Reply: (<mark> The PolB sequences of Micromonas viruses were aligned with MAFFT 123 (ver.7.487) (33) and the aligned sequences were trimmed with trimAl (ver.1.4.1) using default settings. The tree was built with the best-fit substitution model LG+F+G4 using IQ-TREE (ver.1.6.12). The resulting phylogenetic tree was visualized, labeled, and manually edited using iTOL </mark>) 
+- **figure2_mpv_groups_temperature_distribution_17102024.ipynb** (Jupyter notebook and R): produces figure 2b, 2c and 2d. Figure 2a is made manually using GUI-based processes. The PolB sequences of _Micromonas_ viruses were aligned with MAFFT 123 (ver.7.487) and the aligned sequences were trimmed with trimAl (ver.1.4.1) using default settings. The tree was built with the best-fit substitution model LG+F+G4 using IQ-TREE (ver.1.6.12). The resulting phylogenetic tree was visualized, labeled, and manually edited using iTOL. 
 - **figure3_mpv_host_network.ipynb**  (Jupyter notebook and R): produces the entire figure 3.
 - **figure4and5_ROC_analysis_17102024.ipynb** (Jupyter notebook and R): produces figure 4 and figure 5 (left and right pannels only).
 - **figure5_mpv_distribution_map_17102024.m** (Matlab): produces figure 5 central panels (maps).
