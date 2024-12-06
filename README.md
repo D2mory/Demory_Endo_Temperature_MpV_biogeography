@@ -41,5 +41,5 @@ Output folder with figures produced by the scripts in ./src
 ### HISASHI
 - <mark>provide new ascesion numbers</mark>
 ### David
-- <mark>work on code review: re-do Figure 4, merge figure 2.</mark>
+- <mark>work on code review: fig4 left done. Do the table and merge. Change the colors.</mark>
 - <mark>modify the text according the new results of figure 4.</mark>
