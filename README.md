@@ -33,13 +33,5 @@ Contains data used to plot the figures and do the analyses.
 - **./data_Maat_2017** contains data from Maat _et al._ Viruses 2017 (https://www.mdpi.com/1999-4915/9/6/134) in xlsx form for host (**Polaris_Host.xlsx**) and virus (**Polaris_Virus.xlsx**). Sheets are experimental temperatures: 0.5, 2.5, 3.5 and 7C. First column = cumulative time (in days) and second column = abundances (in particles/ml).
 - **./m_map** package to plot figure 5 maps using Matlab.
 
-  
 ### ./figures
 Output folder with figures produced by the scripts in ./src
-
-## TO DO
-### HISASHI
-- <mark>provide new ascesion numbers</mark>
-### David
-- <mark>work on code review: fig4 left done. Do the table and merge. Change the colors.</mark>
-- <mark>modify the text according the new results of figure 4.</mark>
