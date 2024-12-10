@@ -31,7 +31,7 @@ Contains data used to plot the figures and do the analyses.
 - **thermotype_list_host.txt** and **thermotype_list.txt**: Thermotype classification for each Tara sequence. Gene sequence (Gene), Relative mean frequency (mean_freq), Relative maximum frequency (max_freq), Optimal Temperature (opt_temp), Thermotype classification (thermotype).
   
 - **./data_Maat_2017** contains data from Maat _et al._ Viruses 2017 (https://www.mdpi.com/1999-4915/9/6/134) in xlsx form for host (**Polaris_Host.xlsx**) and virus (**Polaris_Virus.xlsx**). Sheets are experimental temperatures: 0.5, 2.5, 3.5 and 7C. First column = cumulative time (in days) and second column = abundances (in particles/ml).
-- **./m_map** package to plot figure 5 maps using Matlab.
+- **./m_map** package to plot figure 5 maps using Matlab (Pawlowicz, R., 2020. "M_Map: A mapping package for MATLAB", version 1.4m, [Computer software], available online at www.eoas.ubc.ca/~rich/map.html)
 
 ### ./figures
 Output folder with figures produced by the scripts in ./src
