@@ -2,7 +2,7 @@
 _By David Demory and Hisashi Endo, 2024._ 
 
 ## General description
- This repository contains scripts to reproduce figures and analyses for our study on Temperature-driven biogeography of marine giant viruses infecting picoeukaryotes _Micromonas_ published on * XXX *. The code is archived on zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14411152.svg)](https://doi.org/10.5281/zenodo.14411152)
+ This repository contains scripts to reproduce figures and analyses for our study on Temperature-driven biogeography of marine giant viruses infecting picoeukaryotes _Micromonas_ published on * XXX *. The code is archived on zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14411352.svg)](https://doi.org/10.5281/zenodo.14411352)
 
  The codes are written in R, using jupyter notebook and Matlab 2023_a. You will need the following installed on your computer:
  - **R version 4.2.3 (2023-03-15)** with the following packages: ggplot2, ggExtra, dplyr, reshape2, dplyr, ape, vegan, viridis, maps, grid, gridBase, latex2exp, ggmap, RColorBrewer, mgcv, pROC, readr, igraph, ggraph, ggExtra, tidygraph, pryr and magrittr.
