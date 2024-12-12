@@ -1,4 +1,4 @@
-# _Code for_: Temperature-driven biogeography of marine giant viruses infecting picoeukaryotes _Micromonas_
+# _Code for_: Temperature-driven biogeography of marine giant viruses infecting the picoeukaryote _Micromonas_
 _By David Demory and Hisashi Endo, 2024._ 
 
 ## General description
